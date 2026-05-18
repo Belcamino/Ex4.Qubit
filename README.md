@@ -23,6 +23,7 @@ Applichiamo la porta di Hadamard (H) al primo qubit per posizionarlo nello stato
 
 Usiamo il primo qubit come variabile di controllo di una porta CNOT (X) che esegue il flip della variabile di ingresso, se la variabile di controllo ha valore 1, altrimenti, ripropone in uscita il valore dell’ingresso.
 Con questo procedimento, i due qubit risultano essere in entanglement, come è possibile verificare direttamente osservando quanto riportato in Figura 47:![](https://raw.githubusercontent.com/Belcamino/Ex4.Qubit/refs/heads/master/Figura47.png "Figura 47.")
+
 I due qubit sono inizializzati allo stato``|0⟩``. 
 Nel punto "h”, il qbit 0 è nello stato di sovrapposizione ``1/√2(|0⟩+|1⟩``, in quanto ha attraversato la porta quantistica H; 
 nel punto “x”, il qubit 1 è ``|0⟩``, se il qubit 0 è ``|0⟩`` (in quanto in questo stato la porta NOT ripropone in output il suo input), mentre è ``|1⟩`` se il qubit 0 è ``|1⟩ ⟩`` (in quanto in questo stato la porta NOT inverte in output il suo input).
